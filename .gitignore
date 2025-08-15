@@ -1,0 +1,9 @@
+/vendor/
+/var/
+/node_modules/
+/.env.local
+/.idea/
+/*.log
+/public/bundles/
+/public/build/
+/public/.htaccess
