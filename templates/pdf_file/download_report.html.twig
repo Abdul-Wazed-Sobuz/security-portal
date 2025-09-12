@@ -8,24 +8,13 @@
         table { width: 100%; border-collapse: collapse; margin-top: 20px; }
         th, td { border: 1px solid #444; padding: 6px; text-align: left; }
         th { background: #eee; }
-        .download-btn {
-            display: inline-block;
-            margin: 15px 0;
-            padding: 8px 15px;
-            background: #3498db;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .download-btn:hover {
-            background: #2980b9;
-        }
+        .header{text-align: center}
+        .header-right{text-align: right}
     </style>
 </head>
 <body>
-<h2>Member Information List</h2>
-
-<a href="{{ path('user_report_download') }}" class="download-btn">⬇ Download PDF</a>
+<h2 class="header">Member Information Report</h2>
+<h3 class="header-right">Printing Date & Time: {{ current_date_time }}</h3>
 
 <table>
     <thead>
